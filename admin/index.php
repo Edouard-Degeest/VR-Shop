@@ -1,7 +1,7 @@
 <?php
  session_start();
-$username= "bootcamp";
-$pass = "12345";
+$username= "";
+$pass = "";
 if(isset($_POST['submit'])){
     
     $user = $_POST['username'];
