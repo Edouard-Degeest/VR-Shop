@@ -891,7 +891,7 @@ padding: 25px;
 
 /*-------pricing-area start-------*/
 #price{
-	padding:90px 0;
+  padding:0px;
 } 
 #price .section-header{
 	margin-bottom:40px;
@@ -1440,4 +1440,11 @@ p.help-block li {
 	padding-inline-start: 0px;
 	width: 50%;
 	margin: auto;
+}
+.form-group1 {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }

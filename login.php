@@ -20,12 +20,12 @@ $pass = "12345";
 if(isset($_POST['submit'])){
     
     $user = $_POST['username'];
-    $password = $_POST['password'];
+    $password = ($_POST['password']);
 
     if($username && $password){
       if($username==$user&&$password==$pass){
         $_SESSION['username']=$username;
-        header('Location: admin.php'); 
+        header('Location: /admin'); 
     }
     else{
         echo 'Identifiant éronnés';

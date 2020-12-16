@@ -5,17 +5,45 @@ session_start();
 
 ?>
 
-<h1> Bienvenue, <?php echo $_SESSION['username']; ?> </h1>
+<h1> Bienvenue <?php echo $_SESSION['username']; ?> </h1>
+<section id="services">
+    <div class="container">
+        <div class="section-header">
+            <h2>Panel Admin</A></h2>
+            </div>
 
-<a href="?action=add">Ajouter un produit </a>
-<a href="?action=modifyanddelete">Modifier / Supprimer un produit </a>
+            <div class="row">
 
-<a href="?action=add_category">Ajouter une catégorie </a>
-<a href="?action=modifyanddelete_category">Modifier / Supprimer une catégorie </a>
+            <div class="col-lg-4">
+            <div class="box wow fadeInLeft">
+            <a href="?action=add">AJOUTER UN PRODUIT </a>
+              </div>
+          </div>
 
-<a href="?action=options">Options </a>
+          <div class="col-lg-4">
+            <div class="box wow fadeInLeft">
+            <a href="?action=add_category">AJOUTER UNE CATEGORIE </a>
+              </div>
+          </div>
 
+          <div class="col-lg-4">
+            <div class="box wow fadeInLeft">
+            <a href="?action=modifyanddelete">MODIFIER / SUPPRIMER UN PRODUIT </a>
+              </div>
+          </div>
 
+          <div class="col-lg-4">
+            <div class="box wow fadeInLeft">
+            <a href="?action=modifyanddelete_category">MODIFIER / SUPPRIMER UNE CATEGORIE </a>
+              </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeInLeft">
+            <a href="?action=options">OPTIONS </a>
+              </div>
+          </div>
+</section>
 
 
 <?php
@@ -82,12 +110,7 @@ if(isset($_SESSION['username'])){
 
                 if($title&&$description&&$price){
                     $category=$_POST['category'];
-                    $weight=$_POST['weight'];
-
-                    $select = $db->query("SELECT price FROM weights WHERE name='$weight'");
-                    $s = $select->fetch(PDO::FETCH_OBJ);
-                    $shipping = $s->price;
-                       $insert = $db->prepare("INSERT INTO products VALUES(null, '$title', '$description', '$price','$category','$weight','$shipping')");
+                       $insert = $db->prepare("INSERT INTO products VALUES(null, '$title', '$description', '$price','$category')");
                         $insert->execute();
                 }else{
                     echo 'Veuillez remplir tout les champs';
@@ -95,9 +118,9 @@ if(isset($_SESSION['username'])){
 
                  }
 ?>
-<form action="" method="post" enctype="multipart/form-data">
+<form class="formulaire-admin" action="" method="post" enctype="multipart/form-data">
 
-<div class="form-group">
+<div class="form-group1">
   <label for="product">Titre du produit : </label>
   <input type="text" class="form-control" name="title" id="title" />
 
@@ -106,7 +129,7 @@ if(isset($_SESSION['username'])){
 
   <label for="price">Prix  : </label>
   <input type="text" class="form-control" name="price" id="price" />
-  <label for="ctg">Catégorie  : </label>
+  <label for="img">Catégorie  : </label>
     <select name="category">
         <?php $select=$db->query("SELECT * FROM category") ;
         while($s = $select->fetch(PDO::FETCH_OBJ)){
@@ -116,20 +139,9 @@ if(isset($_SESSION['username'])){
         }
         ?>
     </select>
-    <label for="weight">Poids plus de  : </label>
-    <select name="weight">
-    <?php $select=$db->query("SELECT * FROM weights") ;
-        while($s = $select->fetch(PDO::FETCH_OBJ)){
-            ?>
-            <option ><?php echo $s->name; ?></option>
-            <?php
-        }
-        ?>
-
-    </select>
   <label for="img">Image  : </label>
   <input type="file"  name="img"  />
-
+<br>
   <input type="submit" name="submit"/>
 </div>
 </form>
@@ -224,10 +236,8 @@ if(isset($_SESSION['username'])){
         while($s=$select->fetch(PDO::FETCH_OBJ)){
             echo $s->name;
         ?>
-
        <a href="?action=modify_category&amp;id=<?php echo $s->id; ?>">Modifier</a> 
-          <a href="?action=delete_category&amp;id=<?php echo $s->id; ?>">X</a> 
-           
+          <a href="?action=delete_category&amp;id=<?php echo $s->id; ?>">X</a>
            <?php
              }
          
@@ -266,48 +276,6 @@ if(isset($_SESSION['username'])){
         $delete->execute();
 
         header('Location: admin.php?action=modifyanddelete_category');
-    } else if($_GET['action']=='options'){
-        ?>
-        <h2>Frais de ports :</h2>
-        <h3>Options de poids</h3>
-        
-        <?php
-        $select = $db->query("SELECT * FROM weights");
-        while($s=$select->fetch(PDO::FETCH_OBJ)){
-
-            ?>
-            <form action="" method="post">
-                
-            <input type="text" name="weight" value="<?php echo $s->name;?>"/><a href="?action=modify_weight&amp;name=<?php echo $s->name;?>"> Modifier </a>
-        
-        </form>
-            <?php
-        }
-    } else  if($_GET['action']=='modify_weight'){ 
-        $old_weight = $_GET['name'];
-        $select = $db->query("SELECT * FROM weights WHERE name=$old_weight");
-        $s = $select->fetch(PDO::FETCH_OBJ);
-        if(isset($_POST['submit'])){
-    
-            $weight=$_POST['weight'];
-            $price=$_POST['price'];
-            if($weight&&$price){
-                $update = $db->query("UPDATE weights SET name='$weight', price='$price' WHERE name=$old_weight");
-              
-            }
-        }
-        ?>
-         <h2>Frais de ports :</h2>
-        <h3>Options de poids</h3>
-
-        <form action="" method="POST">
-          <h3>Poids (plus de): </h3>  <input type="text" name="weight" value="<?php echo $_GET['name'];?> "/>
-         <h3>Correspond à</h3><input type="text" name="price" value="<?php echo $s->price;?> "/> € 
-            <input type="submit" name="submit" value="Modifier "/>
-
-        </form>
-        
-        <?php
     } else{
         
         die('Une erreur s\'est produite.');
