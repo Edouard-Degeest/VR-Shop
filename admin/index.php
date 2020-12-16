@@ -19,7 +19,6 @@ if(isset($_POST['submit'])){
 }
 ?>
 
-<head>
 
 <link href="../img/headset.png" rel="icon">
 <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -39,7 +38,6 @@ if(isset($_POST['submit'])){
 
 
   <link href="../css/style.css" rel="stylesheet">
-</head>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -76,3 +74,4 @@ if(isset($_POST['submit'])){
   </form>
 </div>
 <div>
+</html>

@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
 }
 ?>
 
-<head>
+</head>
 
 <link href="../img/headset.png" rel="icon">
 <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -58,9 +58,6 @@ if(isset($_POST['submit'])){
   <link href="../css/style.css" rel="stylesheet">
 </head>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
   <title>Connexion</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -10,7 +10,7 @@
 
   <link href="img/headset.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
+</head>
 <?php
 require_once('includes/header.php');
 
@@ -52,7 +52,6 @@ require_once('includes/header.php');
 <section id="services">
     <div class="container" >
         <div class="section-header">
-
             <div class="row">
 <?php
 

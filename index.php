@@ -103,7 +103,7 @@
         </div>
 
       </div>
-    </section><!-- #about -->
+    </section>
     <section id="price" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
@@ -191,7 +191,6 @@
       <div class="container">
         <div class="section-header">
           <h2>Nous Contacter</h2>
-        </div>
 
         <div class="row contact-info">
          <div class="col-lg-5"> 
@@ -199,7 +198,6 @@
               <i class="ion-ios-location-outline"></i>
               <h3>Adresse</h3>
               <address>MN-12 Lincon Street, NewYork 12356, USA</address>
-            </div> 
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Numéro de téléphone</h3>
@@ -211,11 +209,11 @@
               <p><a href="mailto:info@example.com">name@website.com</a></p>
             </div> 
 		 </div>
+     </div>
 		 <div class="col-lg-7">
 		      <div class="container">
         <div class="form"> 
-		  
-		   <!-- Form itself -->
+
           <form name="sentMessage" class="well" id="contactForm"  novalidate> 
 		 <div class="control-group">
                    <div class="form-group">
@@ -241,10 +239,10 @@
 		       data-validation-required-message="Please enter your message" minlength="5" 
                        data-validation-minlength-message="Min 5 characters" 
                         maxlength="999" style="resize:none"></textarea>
-		</div>
+		        </div>
                </div> 		 
-	     <div id="success"> </div> <!-- For success/fail messages -->
-	    <button type="submit" class="btn btn-primary pull-right">Envoyer</button><br />
+	     <div id="success"> </div>
+	    <button type="submit" class="btn btn-primary pull-right">Envoyer</button><br/>
           </form>
         </div>
 
@@ -259,7 +257,7 @@
 	  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d387191.33750346623!2d-73.979681!3d40.6974881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1541477355474" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe> 
       </div>
  
-    </section><!-- #contact -->
+    </section>
 
     <section id="call-to-action" class="wow fadeInUp">
       <div class="container">
@@ -273,14 +271,13 @@
         </div>
 
       </div>
-    </section><!-- #call-to-action -->
+    </section>
 
   </main>
   <?php include 'includes/footer.php';?>
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-  <!-- JavaScript  -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -76,5 +76,5 @@
             </div>
         </div>
     </div>
-
+</body>
     <?php include 'includes/footer.php';?>
