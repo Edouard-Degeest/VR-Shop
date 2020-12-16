@@ -1,5 +1,6 @@
 
-<?php include 'header.php';?>
+<title>VR Shop | Accueil</title>
+<?php include 'includes/header.php';?>
 <body id="body">
 
   <!--==========================
@@ -97,7 +98,6 @@
             </ul> 
           </div>
           <div class="col-lg-4 about-img">
-            <img src="img/about-img.png" alt="">
           </div>
 
         </div>
@@ -129,7 +129,8 @@
                             <li>DIVERTISSEMENT IMMERSIF</li>
                         </ul>
                         <div class="registarbtn text-center">
-                            <button>Acheter</button>
+                        <a href="event.php">
+                            <button>Acheter</button></a>
                         </div>
                     </div>
                 </div>
@@ -268,8 +269,6 @@
             <p class="cta-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<a class="cta-btn align-middle" href="#contact">Contacter-Nous</a>
           </div>
-          <div class="col-lg-6 cta-btn-container text-center">
-              <img src="img/action-img.jpg" alt="">
           </div>
         </div>
 
@@ -277,7 +276,7 @@
     </section><!-- #call-to-action -->
 
   </main>
-  <?php include 'footer.php';?>
+  <?php include 'includes/footer.php';?>
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 

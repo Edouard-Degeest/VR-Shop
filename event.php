@@ -33,7 +33,7 @@
   <!--==========================
     Header
   ============================-->
-  <?php include 'header.php';?>
+  <?php include 'includes/header.php';?>
   <div class="innerf-pages section py-5">
         <div class="container">
             <div class="row my-sm-5">
@@ -77,4 +77,4 @@
         </div>
     </div>
 
-    <?php include 'footer.php';?>
+    <?php include 'includes/footer.php';?>

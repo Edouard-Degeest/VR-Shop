@@ -30,7 +30,7 @@
 </head>
 
 <body id="body">
-<?php include 'header.php';?>
+<?php include 'includes/header.php';?>
 <link href="css/checkout.css" type="text/css" rel="stylesheet" media="all">
 <section class="checkout_wthree py-sm-5 py-3">
         <div class="container">
@@ -154,7 +154,6 @@
                                         <div class="controls">
                                             <label class="control-label">Nom: </label>
                                             <input class="billing-address-name form-control" type="text" name="name" placeholder="Full name">
-                                        </div>
                                         <div class="card_number_grids">
                                             <div class="card_number_grid_left">
                                                 <div class="controls">
@@ -180,7 +179,7 @@
                                     </div>
                                     <button class="submit check_out">Acheter</button>
                                 </div>
-                                <?php include 'footer.php';?>
+                                <?php include 'includes/footer.php';?>
                             </div>
                         </form>
                     </div>

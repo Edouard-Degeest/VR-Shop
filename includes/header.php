@@ -5,7 +5,6 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
-  <title>VR Shop</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -41,7 +40,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
         <li class="menu-active"><a href="index.php">Accueil</a></li>
-          <li><a href="product.php">Boutique</a></li>
+          <li><a href="boutique.php">Boutique</a></li>
           <li><a href="panier.php">Panier</a></li>
           <li><a href="login.php">Connexion </a></li>
 

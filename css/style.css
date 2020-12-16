@@ -291,6 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 .nav-menu ul {
@@ -313,6 +314,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu li:hover > ul,
 .nav-menu li.sfHover > ul {
   display: block;
+  text-decoration: none;
 }
 
 .nav-menu ul ul {
@@ -653,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 100%;
   text-align: left;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 #services .box .icon i {
@@ -1400,6 +1402,7 @@ p.help-block li {
 }
 #container{
     margin-top:25px;
+    position: center;
 }
 
 .btn-circle.btn-sm { 
@@ -1417,4 +1420,24 @@ p.help-block li {
     background: #280045;
       color: #c393cb;
       font-family: "Open Sans", sans-serif;
+}
+.categories {
+	background-color: #f1f1f1;
+}
+
+.categories {
+	text-align: center;
+}
+
+.categories ul {
+	list-style: none;
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+	width: 50%;
+	margin: auto;
 }

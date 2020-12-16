@@ -1,3 +1,4 @@
+<?php include 'includes/header.php';?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -12,9 +13,6 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
 
-  <?php
-require_once('includes/header.php');
-?>
 <?php
  session_start();
 $username= "bootcamp";
