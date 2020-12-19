@@ -9,6 +9,7 @@ $select->execute();
 while($s=$select->fetch(PDO::FETCH_OBJ)){
     
 ?>
+<img src="admin/img/<?php echo $s->title;?>.jpg" alt="">
 
 <h2><?php echo $s->title;?></h2>
 <h5><?php echo $s->description;?></h5>

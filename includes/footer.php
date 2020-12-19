@@ -1,10 +1,11 @@
+
 <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>VR Shop</strong>. All Rights Reserved
+     Copyright  &copy; <strong>VR Drop</strong>. All Rights Reserved
       </div>
       <div class="credits"> 
-        Template by <a href="https://github.com/Edouard-Degeest">Bilel & Edouard & Arthur</a>
+        Template by Bilel & Edouard & Arthur
       </div>
     </div>
-  </footer><!-- #footer -->
+  </footer>

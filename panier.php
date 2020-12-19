@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="utf-8">
-  <title>VR Shop | Panier</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-  <meta content="Author" name="WebThemez">
-  <!-- Favicons -->
-  <link href="img/headset.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <meta charset="utf-8">
+    <title>VR Shop | Panier</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta content="Author" name="WebThemez">
+    <!-- Favicons -->
+    <link href="img/headset.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body id="body">
-<?php include 'includes/header.php';?>
-<link href="css/checkout.css" type="text/css" rel="stylesheet" media="all">
-<section class="checkout_wthree py-sm-5 py-3">
+    <?php include 'includes/header.php'; ?>
+    <link href="css/checkout.css" type="text/css" rel="stylesheet" media="all">
+    <section class="checkout_wthree py-sm-5 py-3">
         <div class="container">
             <div class="check_w3ls">
                 <div class="d-sm-flex justify-content-between mb-4">
@@ -135,7 +136,7 @@
                                 <td class="invert">$5.00</td>
                                 <td class="invert">
                                     <div class="rem">
-                                        <div  class="close3"></div>
+                                        <div class="close3"></div>
                                     </div>
 
                                 </td>
@@ -144,16 +145,16 @@
                         </tbody>
                     </table>
                 </div>
-                    <div class="col-md-8 address_form">
-                        <hr>
-                        <h4>Adresse de facturation</h4>
-                        <form action="payment.html" method="post" class="creditly-card-form shopf-sear-headinfo_form">
-                            <div class="creditly-wrapper wrapper">
-                                <div class="information-wrapper">
-                                    <div class="first-row form-group">
-                                        <div class="controls">
-                                            <label class="control-label">Nom: </label>
-                                            <input class="billing-address-name form-control" type="text" name="name" placeholder="Full name">
+                <div class="col-md-8 address_form">
+                    <hr>
+                    <h4>Adresse de facturation</h4>
+                    <form action="payment.html" method="post" class="creditly-card-form shopf-sear-headinfo_form">
+                        <div class="creditly-wrapper wrapper">
+                            <div class="information-wrapper">
+                                <div class="first-row form-group">
+                                    <div class="controls">
+                                        <label class="control-label">Nom: </label>
+                                        <input class="billing-address-name form-control" type="text" name="name" placeholder="Full name">
                                         <div class="card_number_grids">
                                             <div class="card_number_grid_left">
                                                 <div class="controls">
@@ -179,11 +180,11 @@
                                     </div>
                                     <button class="submit check_out">Acheter</button>
                                 </div>
-                                <?php include 'includes/footer.php';?>
+                                <?php include 'includes/footer.php'; ?>
                             </div>
-                        </form>
-                    </div>
+                    </form>
                 </div>
             </div>
+        </div>
         </div>
     </section>

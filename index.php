@@ -1,6 +1,6 @@
-
 <title>VR Shop | Accueil</title>
-<?php include 'includes/header.php';?>
+<?php include 'includes/header.php'; ?>
+
 <body id="body">
 
   <!--==========================
@@ -29,10 +29,10 @@
     <div class="intro-content">
       <h2><span>VR SHOP</span><br>Casque VR et accessoires</h2>
       <div>
-        <a href="#about" class="btn-get-started scrollto">Regarder maintenant</a> 
+        <a href="#about" class="btn-get-started scrollto">Regarder maintenant</a>
       </div>
     </div>
-    <div class="background" style="background-image: url('img/beat-saber-classement-psvr.jpg');"></div>  
+    <div class="background" style="background-image: url('img/beat-saber-classement-psvr.jpg');"></div>
   </section><!-- #intro -->
 
   <main id="main">
@@ -73,7 +73,7 @@
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
             </div>
           </div>
- 
+
         </div>
 
       </div>
@@ -83,19 +83,19 @@
     ============================-->
     <section id="about" class="wow fadeInUp">
       <div class="container">
-	    <div class="section-header">
+        <div class="section-header">
           <h2>Qu'est ce que la Réalité virtuelle</h2>
           <p>La réalité virtuelle est une reproduction d’un environnement généré par une source informatique. Il est possible d’interagir avec l’espace dans lequel on évolue. Cela peut passer par la capture de mouvement ou l’enregistrement de commandes à partir d’un gant de données ou d’une manette.</p>
         </div>
         <div class="row">
           <div class="col-lg-8 content">
             <h2>Que me faut-il pour utiliser la réalité virtuel ? </h2>
-			<p>Si dessous sont marquer les éléments nécessaire pour l'acquérir :</p>
+            <p>Si dessous sont marquer les éléments nécessaire pour l'acquérir :</p>
             <ul>
               <li><i class="icon ion-ios-checkmark-outline"></i> Un Casque de réalité virtuelle</li>
               <li><i class="icon ion-ios-checkmark-outline"></i> Un Pc Fixe (marquer dans les informaions relative a l'utilisation)</li>
               <li><i class="icon ion-ios-checkmark-outline"></i> un cable USB type C</li>
-            </ul> 
+            </ul>
           </div>
           <div class="col-lg-4 about-img">
           </div>
@@ -109,154 +109,146 @@
         <div class="section-header">
           <h2>Nos casques préférés</h2>
         </div>
-		   <div class="row">
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="pricing-wrap">
-                        <div class="row">
-                            <div class="col-7">
-                              <img src="img/oculus-quest-2.png">
-                            </div>
-                            <div class="col-5">
-                                <h3>$400</h3>
-                            </div>
-                        </div>
-                        <br>
-                        <h2>Oculus Quest 2</h2>
-                        <ul>
-                            <li>ÉQUIPEMENT NOUVELLE GÉNÉRATION</li>
-                            <li>LE JEU TOUT-EN-UN  </li>
-                            <li>CONFIGURATION FACILE </li>
-                            <li>DIVERTISSEMENT IMMERSIF</li>
-                        </ul>
-                        <div class="registarbtn text-center">
-                        <a href="event.php">
-                            <button>Acheter</button></a>
-                        </div>
-                    </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="pricing-wrap">
+              <div class="row">
+                <div class="col-7">
+                  <img src="img/oculus-quest-2.png">
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="pricing-wrap">
-                        <div class="row">
-                            <div class="col-7">
-                            <img src="img/oculus-quest.jpg">
-                            </div>
-                            <div class="col-5">
-                                <h3>$300</h3>
-                            </div>
-                        </div>
-                        <br>
-                        <h2>Oculus Quest</h2>
-                        <ul>
-                            <li>UN GAMEPLAY PLUS AVANCE </li>
-                            <li>SYSTEME DE SUIVIS </li>
-                            <li>AUCUN LIMITE </li>
-                            <li>MANETTES TOUCH</li>
-                        </ul>
-                        <div class="registarbtn text-center">
-                            <button>Acheter</button>
-                        </div>
-                    </div>
+                <div class="col-5">
+                  <h3>$400</h3>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="pricing-wrap">
-                        <div class="row">
-                            <div class="col-7">
-                            <img src="img/htc-vive-cosmos.jpg">
-                            </div>
-                            <div class="col-5">
-                                <h3>$750</h3>
-                            </div>
-                        </div>
-                        <br>
-                        <h2>HTC VIVE</h2>
-                        <ul>
-                            <li>TRACKING OCULAIRE</li>
-                            <li>CONCUS POUR LES STUDIOS</li>
-                            <li>CONTRASTE ELEVE</li>
-                            <li>QUALITEE OPTIMALE</li>
-                        </ul>
-                        <div class="registarbtn text-center">
-                            <button>Acheter</button>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <br>
+              <h2>Oculus Quest 2</h2>
+              <ul>
+                <li>ÉQUIPEMENT NOUVELLE GÉNÉRATION</li>
+                <li>LE JEU TOUT-EN-UN </li>
+                <li>CONFIGURATION FACILE </li>
+                <li>DIVERTISSEMENT IMMERSIF</li>
+              </ul>
+              <div class="registarbtn text-center">
+                <a href="#">
+                  <button>Acheter</button></a>
+              </div>
             </div>
-	</div>
-	</section>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="pricing-wrap">
+              <div class="row">
+                <div class="col-7">
+                  <img src="img/oculus-quest.jpg">
+                </div>
+                <div class="col-5">
+                  <h3>$300</h3>
+                </div>
+              </div>
+              <br>
+              <h2>Oculus Quest</h2>
+              <ul>
+                <li>UN GAMEPLAY PLUS AVANCE </li>
+                <li>SYSTEME DE SUIVIS </li>
+                <li>AUCUN LIMITE </li>
+                <li>MANETTES TOUCH</li>
+              </ul>
+              <div class="registarbtn text-center">
+                <button >Acheter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="pricing-wrap">
+              <div class="row">
+                <div class="col-7">
+                  <img src="img/htc-vive-cosmos.jpg">
+                </div>
+                <div class="col-5">
+                  <h3>$750</h3>
+                </div>
+              </div>
+              <br>
+              <h2>HTC VIVE</h2>
+              <ul>
+                <li>TRACKING OCULAIRE</li>
+                <li>CONCUS POUR LES STUDIOS</li>
+                <li>CONTRASTE ELEVE</li>
+                <li>QUALITEE OPTIMALE</li>
+              </ul>
+              <div class="registarbtn text-center">
+                <button>Acheter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--==========================
       Contact Section
     ============================-->
-    
+
     <section id="contact" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Nous Contacter</h2>
 
-        <div class="row contact-info">
-         <div class="col-lg-5"> 
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Adresse</h3>
-              <address>MN-12 Lincon Street, NewYork 12356, USA</address>
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Numéro de téléphone</h3>
-              <p><a href="tel:+155895548855">+1 2345 67890 12</a></p>
-            </div> 
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">name@website.com</a></p>
-            </div> 
-		 </div>
-     </div>
-		 <div class="col-lg-7">
-		      <div class="container">
-        <div class="form"> 
+          <div class="row contact-info">
+            <div class="col-lg-5">
+              <div class="contact-address">
+                <i class="ion-ios-location-outline"></i>
+                <h3>Adresse</h3>
+                <address>MN-12 Lincon Street, NewYork 12356, USA</address>
+                <div class="contact-phone">
+                  <i class="ion-ios-telephone-outline"></i>
+                  <h3>Numéro de téléphone</h3>
+                  <p><a href="tel:+155895548855">+1 2345 67890 12</a></p>
+                </div>
+                <div class="contact-email">
+                  <i class="ion-ios-email-outline"></i>
+                  <h3>Email</h3>
+                  <p><a href="mailto:info@example.com">name@website.com</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="container">
+                <div class="form">
 
-          <form name="sentMessage" class="well" id="contactForm"  novalidate> 
-		 <div class="control-group">
-                   <div class="form-group">
-			<input type="text" class="form-control" 
-			   	   placeholder="Full Name" id="name" required
-			           data-validation-required-message="Entrer votre nom" />
-			  <p class="help-block"></p>
+                  <form name="sentMessage" class="well" id="contactForm" novalidate>
+                    <div class="control-group">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Full Name" id="name" required data-validation-required-message="Entrer votre nom" />
+                        <p class="help-block"></p>
 
-		   </div>
-	         </div> 	
-                <div class="form-group">
-                  <div class="controls">
-			<input type="email" class="form-control" placeholder="Email" 
-			   	            id="email" required
-			   		   data-validation-required-message="Please enter your email" />
-		</div>
-	    </div> 	
-			  
-               <div class="form-group">
-                 <div class="controls">
-				 <textarea rows="10" cols="100" class="form-control" 
-                       placeholder="Message" id="message" required
-		       data-validation-required-message="Please enter your message" minlength="5" 
-                       data-validation-minlength-message="Min 5 characters" 
-                        maxlength="999" style="resize:none"></textarea>
-		        </div>
-               </div> 		 
-	     <div id="success"> </div>
-	    <button type="submit" class="btn btn-primary pull-right">Envoyer</button><br/>
-          </form>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="controls">
+                        <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email" />
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="controls">
+                        <textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter your message" minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
+                      </div>
+                    </div>
+                    <div id="success"> </div>
+                    <button type="submit" class="btn btn-primary pull-right">Envoyer</button><br />
+                  </form>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
         </div>
 
-      </div>
-		 </div>
-         
-
+        <div class="container mb-4 map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d387191.33750346623!2d-73.979681!3d40.6974881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1541477355474" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-      </div>
 
-      <div class="container mb-4 map">
-	  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d387191.33750346623!2d-73.979681!3d40.6974881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1541477355474" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe> 
-      </div>
- 
     </section>
 
     <section id="call-to-action" class="wow fadeInUp">
@@ -265,16 +257,16 @@
           <div class="col-lg-6 text-center text-lg-left">
             <h3 class="cta-title">Pour plus d'informations</h3>
             <p class="cta-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<a class="cta-btn align-middle" href="#contact">Contacter-Nous</a>
-          </div>
+            <a class="cta-btn align-middle" href="#contact">Contacter-Nous</a>
           </div>
         </div>
+      </div>
 
       </div>
     </section>
 
   </main>
-  <?php include 'includes/footer.php';?>
+  <?php include 'includes/footer.php'; ?>
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
@@ -287,10 +279,11 @@
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/sticky/sticky.js"></script> 
- <script src="contact/jqBootstrapValidation.js"></script>
- <script src="contact/contact_me.js"></script>
+  <script src="lib/sticky/sticky.js"></script>
+  <script src="contact/jqBootstrapValidation.js"></script>
+  <script src="contact/contact_me.js"></script>
   <script src="js/main.js"></script>
 
 </body>
+
 </html>
